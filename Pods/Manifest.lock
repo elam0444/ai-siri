@@ -1,0 +1,35 @@
+PODS:
+  - ApiAI/Core (0.7.0)
+  - ApiAI/ResponseMapping (0.7.0):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.0):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/VoiceRequest (0.7.0):
+    - ApiAI/Core
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - MBProgressHUD (1.0.0)
+  - SwiftSiriWaveformView (2.0.0)
+
+DEPENDENCIES:
+  - ApiAI/Core
+  - ApiAI/ResponseMapping
+  - ApiAI/UIKit
+  - ApiAI/VoiceRequest
+  - Crashlytics
+  - Fabric
+  - MBProgressHUD
+  - SwiftSiriWaveformView
+
+SPEC CHECKSUMS:
+  ApiAI: 25f763ddd88139dc5fe6794a905300244190d168
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SwiftSiriWaveformView: 85328da51cf5f3c6a0dbcdf9186f4417edf1b538
+
+PODFILE CHECKSUM: 2524b34548f8f7be7fa461091d25f18013d3b830
+
+COCOAPODS: 1.2.0
